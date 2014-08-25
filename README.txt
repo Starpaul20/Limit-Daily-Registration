@@ -1,6 +1,6 @@
 ## INFORMATION ##
 
-Limit Daily Registration (1.0) for MyBB 1.6
+Limit Daily Registration (1.0) for MyBB 1.8
 Created by: Starpaul20
 Copyright: ©2014
 License: GPL
@@ -8,6 +8,8 @@ License: GPL
 Allows Administrators to limit the number of registrations that can be made in a day. If the limit is reached (set as a setting) anyone registering will receive an error telling them they've reached the daily registration limit.
 
 The setting for this plugin are located under the 'User Registration and Profile Options' setting group. This plugin offers full language support.
+
+The 'oldrelease' branch contains the 1.6 version of the plugin.
 
 
 ## INSTALLATION ##
