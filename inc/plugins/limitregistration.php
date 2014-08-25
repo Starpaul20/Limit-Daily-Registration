@@ -19,9 +19,12 @@ $plugins->add_hook("member_register_coppa", "limitregistration_run");
 // The information that shows up on the plugin manager
 function limitregistration_info()
 {
+	global $lang;
+	$lang->load("limitregistration", true);
+
 	return array(
-		"name"				=> "Limit Daily Registration",
-		"description"		=> "Allows you to limit the number of registrations that can be made in a day.",
+		"name"				=> $lang->limitregistration_info_name,
+		"description"		=> $lang->limitregistration_info_desc,
 		"website"			=> "http://galaxiesrealm.com/index.php",
 		"author"			=> "Starpaul20",
 		"authorsite"		=> "http://galaxiesrealm.com/index.php",
