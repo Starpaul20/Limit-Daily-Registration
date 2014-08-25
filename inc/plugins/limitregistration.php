@@ -38,7 +38,7 @@ function limitregistration_activate()
 {
 	global $db;
 	$query = $db->simple_select("settinggroups", "gid", "name='member'");
-	$gid = intval($db->fetch_field($query, "gid"));
+	$gid = $db->fetch_field($query, "gid");
 
 	$insertarray = array(
 		'name' => 'maxregday',
@@ -46,8 +46,8 @@ function limitregistration_activate()
 		'description' => 'Maximum number of registrations that can be made per day. 0 for unlimited.',
 		'optionscode' => 'text',
 		'value' => 10,
-		'disporder' => 35,
-		'gid' => $gid
+		'disporder' => 24,
+		'gid' => (int)$gid
 	);
 	$db->insert_query("settings", $insertarray);
 
