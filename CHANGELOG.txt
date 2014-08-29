@@ -1,2 +1,2 @@
-1.0
+1.0 (August 25th, 2014)
 - Initial release
