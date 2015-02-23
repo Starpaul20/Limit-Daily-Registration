@@ -47,7 +47,7 @@ function limitregistration_activate()
 		'description' => 'Maximum number of registrations that can be made per day. 0 for unlimited.',
 		'optionscode' => 'numeric',
 		'value' => 10,
-		'disporder' => 24,
+		'disporder' => 25,
 		'gid' => (int)$gid
 	);
 	$db->insert_query("settings", $insertarray);
