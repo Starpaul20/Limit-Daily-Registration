@@ -1,2 +1,5 @@
+1.1 (February 23rd, 2015)
+- Updated setting type and display order
+
 1.0 (August 25th, 2014)
 - Initial release
