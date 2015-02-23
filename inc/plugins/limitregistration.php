@@ -45,7 +45,7 @@ function limitregistration_activate()
 		'name' => 'maxregday',
 		'title' => 'Maximum Registrations allowed Per Day',
 		'description' => 'Maximum number of registrations that can be made per day. 0 for unlimited.',
-		'optionscode' => 'text',
+		'optionscode' => 'numeric',
 		'value' => 10,
 		'disporder' => 24,
 		'gid' => (int)$gid
