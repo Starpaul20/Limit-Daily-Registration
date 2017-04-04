@@ -83,5 +83,3 @@ function limitregistration_run()
 		}
 	}
 }
-
-?>
