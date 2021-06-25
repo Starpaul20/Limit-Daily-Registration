@@ -1,3 +1,8 @@
+1.2 (June 25th, 2021)
+- Updated numeric settings
+- Removed PHP closing tags
+- Adding License file
+
 1.1 (February 23rd, 2015)
 - Updated setting type and display order
 
